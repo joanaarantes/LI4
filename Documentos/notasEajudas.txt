@@ -1,5 +1,7 @@
 Links:
 https://pt.wikipedia.org/wiki/Explora%C3%A7%C3%A3o_espacial
+http://www.software-engin.com/home
+https://en.wikipedia.org/wiki/Space_exploration
 
 -----------------------------------------------------------------
 TO BE DOING:
@@ -25,10 +27,20 @@ falar, associar dados utilizaçao
 
 -----------------------------------------------------------------
 
+Para entregar:
+“MIEI3-LI4-2016 – Entrega do Trabalho Prático – Parte X
+– (Grupo XX)”.
 
+18 Março fundam.
+6 Maio  especf.
+9 Junho  construcao
 
+MS Word 2 relatorios parciais e 1 total
++ codigo fonte 
 
+obelo@di.uminho.pt
 
+Ferramentas: Microsoft Visual Studio + Microsoft .Net C#, Microsoft SQL Server + Microsoft Office + Microsoft Project ... .. .. .. . 
 
 -----------------------------------------------------------------
 Trabalho a fazer
