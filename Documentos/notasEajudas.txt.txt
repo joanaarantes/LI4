@@ -1,0 +1,74 @@
+Links:
+https://pt.wikipedia.org/wiki/Explora%C3%A7%C3%A3o_espacial
+
+-----------------------------------------------------------------
+TO BE DOING:
+
+plano de atividades
+plano de acontecimentos
+reconhecimento: - speak
+-speach to text 
+-talk to text
+
+fotos/imagens
+acesso a camara fotografica
+videos... links para os videos, nest link tem o video bla bla
+consultar video, para nao sobrecarregar a base de dados
+
+dados -> mark down?
+
+GPS -> registar percursos
+guiar-se
+
+falar, associar dados utilizaçao
+
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+-----------------------------------------------------------------
+Trabalho a fazer
+
+1.Contexto:-
+
+2.Motivação:-
+
+3.Objetivos:-
+
+
+4.:-:- Analise de Requisitos mt importante! -:-:
+
+-:-:-:-:-   -:-:-:-:-   -:-:-:-:-  
+5.Especificaçao UML
+em cascata 
+
+Processo: especificar, designa e implement.
+validar, evoluçao: costumer needs and changes (mudança dos requisitos e das necessidades do cliente, etc ... )
+
+
+-----------------------------------------------------------------
+
+Assitente de Campo: Auxilia tecnicos e engenheiros no levantamento de dados, relatorio e fotos. Apoia equipas e laboratorio. 
+
+exploração espacial: conj de esforços do homem em estudar o espaço e os seus astros do ponto de vista cientifico.
+Pode envolver naves espaciais, satelites espaciais, astronautas cosmonautas ou espaçonautas sao os nomes dados aos que exploram e esutdam o espaço.
+
+
+Videos e Filmes interessantes
+De la Terre à la Lune
+La voyage dans la Lune
+The war of the Worlds
+The first men on the Moon
+
+Historia
+Astronómicos Hiparco e Ptolomeu 
+Telescópio: Galileu Galilei
+
+ver gravaçoes audio no site da wikipedia portugues 
++ informaçoes no inglês
+
+"Um pequeno passo para o Homem, um GRANDE passo para a HUMANINDADE."
