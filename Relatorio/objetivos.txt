@@ -1,0 +1,8 @@
+Objetivos
+
+Perante este caso de estudo, e tendo em conta o que foi requerido, tem-se como objetivo principal desenvolver um agente de campo de exploração espacial capaz de catalogar e fornecer informações ao utilizador em causa. Sendo esta uma tarefa com bastante complexidade, teremos de encontrar o método mais adequado para a realização desta tarefa com sucesso. Assim, será necessário:
+• Desenvolver um assistente com dinamismo suficiente para o utilizador conseguir tirar o máximo proveito do agente de campo;
+• Desenvolver um assistente em que o público alvo sejam investigadores de exploração espacial;
+• Desenvolver um assistente com uma interface simples, que proporcione ao utilizador uma fácil utilização.
+Para além destes objetivos, e sendo que este projeto simula uma interação com o mundo real, um outro objetivo a cumprir será pôr em prática as especificações requeridas.
+Para alcançarmos estes objetivos, teremos de recolher informações pertinentes, seguindo-se de uma análise do problema, conceptualização de modelos seguidores dos requisitos e sua validação, implementação dos modelos finais e documentação de todo o processo.
