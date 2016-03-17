@@ -1,10 +1,10 @@
 Objetivos
 
-Perante este caso de estudo, e tendo em conta o que foi requerido, tem-se como objetivo principal desenvolver um agente de campo de explora√ß√£o espacial capaz de catalogar e fornecer informa√ß√µes ao utilizador em causa. Sendo esta uma tarefa com bastante complexidade, teremos de encontrar o m√©todo mais adequado para a realiza√ß√£o desta tarefa com sucesso. Assim, ser√° necess√°rio:
+Perante este caso de estudo, e tendo em conta o que foi requerido, tem-se como objetivo principal desenvolver um agente de campo de exploraÁ„o espacial capaz de catalogar e fornecer informaÁıes ao utilizador em causa. Sendo esta uma tarefa com bastante complexidade, teremos de encontrar o mÈtodo mais adequado para a realizaÁ„o desta tarefa com sucesso. Assim, ser· necess·rio:
 
-‚Ä¢ Desenvolver um assistente com dinamismo suficiente para o utilizador conseguir tirar o m√°ximo proveito do agente de campo;
-‚Ä¢ Desenvolver um assistente em que o p√∫blico alvo sejam investigadores de explora√ß√£o espacial;
-‚Ä¢ Desenvolver um assistente com uma interface simples, que proporcione ao utilizador uma f√°cil utiliza√ß√£o.
+ï Desenvolver um assistente com dinamismo suficiente para o utilizador conseguir tirar o m·ximo proveito do agente de campo;
+ï Desenvolver um assistente em que o p˙blico alvo sejam investigadores de exploraÁ„o espacial;
+ï Desenvolver um assistente com uma interface simples, que proporcione ao utilizador uma f·cil utilizaÁ„o.
 
-Para al√©m destes objetivos, e sendo que este projeto simula uma intera√ß√£o com o mundo real, um outro objetivo a cumprir ser√° p√¥r em pr√°tica as especifica√ß√µes requeridas.
-Para alcan√ßarmos estes objetivos, teremos de recolher informa√ß√µes pertinentes, seguindo-se de uma an√°lise do problema, conceptualiza√ß√£o de modelos seguidores dos requisitos e sua valida√ß√£o, implementa√ß√£o dos modelos finais e documenta√ß√£o de todo o processo.
+Para alÈm destes objetivos, e sendo que este projeto simula uma interaÁ„o com o mundo real, um outro objetivo a cumprir ser· pÙr em pr·tica as especificaÁıes requeridas.
+Para alcanÁarmos estes objetivos, teremos de recolher informaÁıes pertinentes, seguindo-se de uma an·lise do problema, conceptualizaÁ„o de modelos seguidores dos requisitos e sua validaÁ„o, implementaÁ„o dos modelos finais e documentaÁ„o de todo o processo.
