@@ -18,6 +18,18 @@ namespace codek
 
             var myName = Console.ReadLine();
             Console.WriteLine("Hello, " + myName + " :). ");
+
+            /* Converting Data Types */
+
+            int age = 20;
+            string myFirstTry = age.ToString();
+            Console.WriteLine(myFirstTry);
+            // int mySecondTry = int.Parse(myName);
+            string cinco = "5";
+            int mySecondTry = int.Parse(cinco);
+            Console.WriteLine("My Second Try: " + mySecondTry);
+
+            /* */
         }
     }
 }
