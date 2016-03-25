@@ -12,7 +12,8 @@ namespace codek
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello Codek!");
-            Console.ReadLine();
+            string inp= Console.ReadLine();
+            Console.WriteLine(inp);
         }
     }
 }
