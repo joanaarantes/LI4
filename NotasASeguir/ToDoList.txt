@@ -1,0 +1,10 @@
+1. Fazer um Diagrama de Gantt melhor;
+2. Estabelecer conjunto de Missoes a realizar (Missoes_Nautas.txt);
+3. Fazer uma maquete/mock up da aplicação com as varias interfaces;
+4. Estabelecer tipos de utilizadores da aplicação e funcionalidades extra de cada um;
+5. Requisitos da aplicação: O que é preciso para a aplicação funcionar? 
+6. Fazer uma maquete do modelo de negócio a utilizar para a nossa aplicação e maquete da aplicação back office e total;
+7. Começar a pensar nas classes a realizar, e fazer respetivos diagramas UML;
+8. Especificar de forma geral as funcionalidades e as determinadas classes/funções/objetos que vao existir - pseudo código;
+9. Elaborar um método nosso ou utilizar método RUP: Todos os dias fazer um commit no nosso repositorio para trabalhar todos os dias;
+10. 
