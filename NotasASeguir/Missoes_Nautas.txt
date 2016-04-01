@@ -1,0 +1,22 @@
+Cartografar planetas - a Lua
+
+construir intrumentos telescópicos ?
+medir pequenos movimentos das estrelas e analisá-los;
+identificar caracteristicas do solo;
+
+- estabelecer a tecnologia para viabilizar os interesses dos Estados Unidos;
+- desenvolver um programa de exploração cientifica da Lua;
+- desenvolver as capacidades do homem para trabalhar no ambiente lunar;
+
+- efetuar voo - naves apollo, mercury e gemini;
+- rendez-vous encontro em órbita, na órbita da Terra, e o rendez-vous lunar, que significa que um pequeno módulo desceria ao solo da Lua e depois encontraria em órbita a nave de retorno.
+
+- trazer pedras "As 2 200 pedras trazidas pelas seis missoes Apollo que pousaram na superficie da Lua cerca de 400 kg de rochas, 75 novas variedades de minerais, a maioria silicatos".
+
+Desde a missao Apollo 17 em dezembro de 1972, nenhum homem pisou no solo lunar e muitas das descobertas científicas que poderiam ter sido feitas ficaram adiadas para quando houvesse novamente interesse em desvendá-las.
+
+--Missoes
+
+--Referências
+https://pt.wikipedia.org/wiki/Programa_Apollo
+https://pt.wikipedia.org/wiki/Explora%C3%A7%C3%A3o_espacial
