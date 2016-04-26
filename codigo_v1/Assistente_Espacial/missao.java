@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-public class missao
+public class Missao
 {
     private String nome;
     private float areatotal;
     private String nomeArea;
-    private String nomePlano;
+    private Plano plano;
     private ArrayList<String> factos;
     private Date datainicio;
     private Date datafim;
@@ -16,11 +16,11 @@ public class missao
     /**
      * Construtor vazio de missao
      */
-    public missao(){
+    public Missao(){
         this.nome = "Nome default";
         this.areatotal = 0;
         this.nomeArea =" ";
-        this.nomePlano= " ";
+        this.plano= null;
         this.factos = null;
         this.datainicio = new Date();
         this.datafim = new Date();
@@ -30,11 +30,11 @@ public class missao
     /**
      * Construtor parametrico
      */
-     public missao(String nome, float area, String nomeArea, String nomePlano, Date d1, Date d2){
+     public Missao(String nome, float area, String nomeArea, Plano plano, Date d1, Date d2){
         this.nome = nome;
         this.areatotal = area;
         this.nomeArea = nomeArea;
-        this.nomePlano= nomePlano;
+        this.plano= plano.clone();
         this.factos = null;
         this.datainicio = d1;
         this.datafim = d2;
@@ -44,11 +44,11 @@ public class missao
     /**
      * Construtor de cópia
      */
-    public missao(missao missaocopy){
+    public Missao(Missao missaocopy){
         this.nome = missaocopy.getNome();
         this.areatotal = missaocopy.getArea();
         this.nomeArea = missaocopy.getNomeArea();
-        this.nomePlano= missaocopy.getNomePlano();
+        this.plano= missaocopy.plano.clone();
         this.factos = null;
         this.datainicio = missaocopy.getDataI();
         this.datafim = missaocopy.getDataF();
@@ -71,8 +71,8 @@ public class missao
         return this.nomeArea;
     }
     
-    public String getNomePlano(){
-        return this.nomePlano;
+    public Plano getNomePlano(){
+        return this.plano.clone();
     }
     
     public Date getDataI(){

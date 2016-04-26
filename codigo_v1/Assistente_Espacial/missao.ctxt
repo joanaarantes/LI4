@@ -1,12 +1,12 @@
 #BlueJ class context
 comment0.params=
-comment0.target=missao()
+comment0.target=Missao()
 comment0.text=\r\n\ Construtor\ vazio\ de\ missao\r\n
-comment1.params=nome\ area\ nomeArea\ nomePlano\ d1\ d2
-comment1.target=missao(java.lang.String,\ float,\ java.lang.String,\ java.lang.String,\ java.util.Date,\ java.util.Date)
+comment1.params=nome\ area\ nomeArea\ plano\ d1\ d2
+comment1.target=Missao(java.lang.String,\ float,\ java.lang.String,\ Plano,\ java.util.Date,\ java.util.Date)
 comment1.text=\r\n\ Construtor\ parametrico\r\n
 comment2.params=missaocopy
-comment2.target=missao(missao)
+comment2.target=Missao(Missao)
 comment2.text=\r\n\ Construtor\ de\ c\u00F3pia\r\n
 comment3.params=
 comment3.target=java.lang.String\ getNome()
@@ -16,7 +16,7 @@ comment4.target=float\ getArea()
 comment5.params=
 comment5.target=java.lang.String\ getNomeArea()
 comment6.params=
-comment6.target=java.lang.String\ getNomePlano()
+comment6.target=Plano\ getNomePlano()
 comment7.params=
 comment7.target=java.util.Date\ getDataI()
 comment8.params=
