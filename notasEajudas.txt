@@ -1,0 +1,104 @@
+﻿-----------------------2a FASE-------------------------------------------------
+Trabalho a fazer 
+
+1. Diagrama de Gantt melhorado
+2. Estabelecer conjunto de missões (Missoes_Nautas-txt)
+3. Fazer maquete/mock up da aplicação
+4. Identificar interfaces
+5. Tipos utilizador da aplicação e suas funcionalidades diferentes
+6. Discutir o back-office
+7. Começar a pensar que classes vamos implementar e como vai ficar o código
+8. Especificar de forma geral as funcionalidades e 
+classes/funções: o que vao fazer, para que vao servir
+9. Respirar fundo.
+10. Diferenciar requisitos de utilizador e de sistema
+Requisitos user ou aplicação ou sistema: o que é preciso para a app funcionar?
+ler capítulo 4 do livro ian_sommerville
+11. Em cada requisito diferenciar funcionais e não funcionais
+12. Especificação UML
+12.1 Diagrama de Dominio
+12.2 Diagrama Use Case
+12.3 Diagrama de Classe
+12.4 Diagramas de Sequência
+13. Método RUP
+14. Documentação ?
+15. Relatório
+
+
+em cascata 
+
+-----------------------------------------------------------------
+
+To Be doing: 2a fase
+
+plano de atividades
+plano de acontecimentos
+reconhecimento: - speak
+-speach to text 
+-talk to text
+
+fotos/imagens
+acesso a camara fotografica
+videos... links para os videos, nest link tem o video bla bla
+consultar video, para nao sobrecarregar a base de dados
+
+dados -> mark down?
+
+GPS -> registar percursos
+guiar-se
+
+falar, associar dados utilizaçao
+-----------------------------------------------------------------
+
+
+Para entregar:
+“MIEI3-LI4-2016 – Entrega do Trabalho Prático – Parte X
+– (Grupo XX)”.
+
+6 Maio  especf.
+9 Junho  construcao
+
+MS Word 2 relatorios parciais e 1 total
++ codigo fonte 
+
+obelo@di.uminho.pt
+
+Ferramentas: Microsoft Visual Studio + Microsoft .Net C#, 
+Microsoft SQL Server + Microsoft Office + 
+Microsoft Project ... .. .. .. . 
+
+
+-----------------------------------------------------------------
+Processo: especificar, designa e implement.
+validar, evoluçao: costumer needs and changes (mudança dos 
+requisitos e das necessidades do cliente, etc ... )
+
+Assitente de Campo: Auxilia tecnicos e engenheiros no 
+levantamento de dados, relatorio e fotos. Apoia equipas e laboratorio. 
+
+exploração espacial: conj de esforços do homem em estudar 
+o espaço e os seus astros do ponto de vista cientifico.
+Pode envolver naves espaciais, satelites espaciais, 
+astronautas cosmonautas ou espaçonautas sao os nomes dados 
+aos que exploram e esutdam o espaço.
+
+
+Videos e Filmes interessantes
+De la Terre à la Lune
+La voyage dans la Lune
+The war of the Worlds
+The first men on the Moon
+
+Historia
+Astronómicos Hiparco e Ptolomeu 
+Telescópio: Galileu Galilei
+
+ver gravaçoes audio no site da wikipedia portugues 
++ informaçoes no inglês
+
+"Um pequeno passo para o Homem, um GRANDE passo para a HUMANINDADE."
+
+Links:
+https://pt.wikipedia.org/wiki/Explora%C3%A7%C3%A3o_espacial
+http://www.software-engin.com/home
+https://en.wikipedia.org/wiki/Space_exploration
