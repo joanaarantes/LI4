@@ -1,31 +1,42 @@
 ﻿-----------------------2a FASE-------------------------------------------------
 Trabalho a fazer 
 
-1. Diagrama de Gantt melhorado
+TODA A GENTE:
 2. Estabelecer conjunto de missões (Missoes_Nautas-txt)
-3. Fazer maquete/mock up da aplicação
 4. Identificar interfaces
 5. Tipos utilizador da aplicação e suas funcionalidades diferentes
 6. Discutir o back-office
 7. Começar a pensar que classes vamos implementar e como vai ficar o código
 8. Especificar de forma geral as funcionalidades e 
 classes/funções: o que vao fazer, para que vao servir
-9. Respirar fundo.
+
+
+Joana -----------------------------------------------
+1. Diagrama de Gantt melhorado -joana
+16. Melhorar Modelo de Dominio e pensar no modelo lógico para base de dados
+
+Malhas ----------------------------------------------
 10. Diferenciar requisitos de utilizador e de sistema
-Requisitos user ou aplicação ou sistema: o que é preciso para a app funcionar?
-ler capítulo 4 do livro ian_sommerville
+Requisitos sistema
 11. Em cada requisito diferenciar funcionais e não funcionais
-12. Especificação UML
-12.1 Diagrama de Dominio
-12.2 Diagrama Use Case
-12.3 Diagrama de Classe
-12.4 Diagramas de Sequência
-13. Método RUP
+3. Fazer maquete/mock up da aplicação - malhas
+
+Alexandre -------------------------------------------
+12.1 Diagrama de Dominio -alexandre,multiplicidades
+12.2 Diagrama Use Case -jessica done, alexandre atualizar e melhorar
+12.3 Diagrama de Classe -alexandre fazer
+12.4 Diagramas de Sequência -alexandre fazer
+
+
+Jessica ---------------------------------------------
+10. Diferenciar requisitos de utilizador e de sistema
+Requisitos user 
+ler capítulo 4 do livro ian_sommerville - jessica e malhas, doing it
+13. Método RUP - jessica done texto no relatorio
 14. Documentação ?
-15. Relatório
-
-
+15. Relatório - jessica doing it
 em cascata 
+11. Em cada requisito diferenciar funcionais e não funcionais
 
 -----------------------------------------------------------------
 
