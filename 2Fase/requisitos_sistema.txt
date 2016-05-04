@@ -1,0 +1,115 @@
+=================================================
+|					  |	|
+|					  |	|
+|		   LI4			  |	|
+|					  |	|
+|	        REQUISITOS		  |	|
+|					  |	|
+|					  |	|
+=================================================
+| REQUISITOS DE SISTEMA                   |     |
+------------------------------------------|------
+| FUNCIONAIS                              |     |
+|_________________________________________|____/
+|-----------------------------------------|
+| 1 -> Ter acesso ao microfone [funcional]|
+|-----------------------------------------|
+| 2 -> Ter acesso à câmera     [funcional]|
+|-----------------------------------------|
+| 3 -> Reconhecer voz          [funcional]|
+|-----------------------------------------|
+| 4 -> Reconhecer texto        [funcional]|
+|-----------------------------------------|
+| 5 -> Reconhecer imagem       [funcional]|
+|-----------------------------------------|
+| 6 -> Ter acesso a mapa dos              |
+|      astros e/ou GPS         [funcional]|
+|-----------------------------------------|
+| 7 -> Ter acesso à nossa                 |
+|      base de dados           [funcional]|
+|-----------------------------------------|
+| 8 -> Fazer backups ao fim		  |
+|      de cada etapa de uma               |
+|      missão. Não vale a pena            |
+|       fazer preriódicamente para        |
+|      não se correr o risco de           |
+|      fazer backups sem ter              |
+|      acontecido nada de novo [funcional]|
+|-----------------------------------------|
+| 9 -> Manter consistência dos            |
+|      dados no backoffice com            |
+|      os dados na base de dados          |
+|      (poderá ter-se uma stack           |
+|      no backoffice que aumenta          |
+|      sempre que uma atividade           |
+|      é completada, sendo que,           |
+|      quando possível, a stack           |
+|      é carregada na base de             |
+|      dados e eliminada do               |
+|      backoffice.)            [funcional]|
+|-----------------------------------------|
+| 10 -> Ter acesso ao relógio             |
+|       do sistema             [funcional]|
+|-----------------------------------------|
+|_________________________________________|
+
+=================================================
+| REQUISITOS DE SISTEMA                   |     |
+------------------------------------------|------
+| NÃO FUNCIONAIS                          |     |
+|_________________________________________|____/
+|-----------------------------------------|
+| 1 -> Pode haver um número               |
+|      de astronautas infinito      [n.f.]|
+|-----------------------------------------|
+| 2 -> Embora apenas seja                 |
+|      exigida a possibilidade            |
+|      de explorar a lua, o               |
+|      sistema deve ser escalável         |
+|      ao ponto de permitir uma           |
+|      fácil extensão a outros            |
+|      astros                       [n.f.]|
+|-----------------------------------------|
+| 3 -> Uma missão tem 3 fases.            |
+|      preparação, onde se valida         |
+|      o material; Intermédia,            |
+|      onde a missão é concretizada;      |
+|      Final onde os astronautas          | 
+|      voltam à base. Nenhuma missão      |
+|      pode ser registada no sistema      |
+|      sem que pelo menos uma atividade   |
+|      seja referida para cada uma destas |
+|      fases                        [n.f.]|
+|-----------------------------------------|
+| 4 -> Uma missão quando começada         |
+|      entra na fase de preparação.       |
+|      apenas pode avançar depois         |
+|      de o astronauta responsável        |
+|      pelo iventuário validar o          |
+|      material necessário.         [n.f.]|
+|-----------------------------------------|
+| 5 -> O astronauta que inicia a missão   |
+|      torna-se o seu chefe/coordenador   |
+|      sendo exigido que divida os cargos |
+|      (os cargos essenciais sem os quais |
+|      a missão não começa são: gestor de |
+|      iventuário; coordenador de campo   |
+|      (o chefe tem que permanecer na base|
+|      para coordenar à distância);       |
+|      especialista na missão em questão, |
+|      para já só existem dois tipos de   |
+|      missões.                     [n.f.]|
+|-----------------------------------------|
+| 6 -> Embora apenas seja                 |
+|      exigida a possibilidade            |
+|      de executar dois tipos de          |
+|      missões sistema deve ser           |
+|      escalável ao ponto de permitir uma |
+|      fácil extensão a mais tipos  [n.f.]|
+|-----------------------------------------|
+|_________________________________________|
+
+
+
+
+
