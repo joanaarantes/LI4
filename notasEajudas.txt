@@ -1,42 +1,50 @@
 ﻿-----------------------2a FASE-------------------------------------------------
+TODO: Duração de uma atividade / registo / missao
+Colocar no modelo conceptual para a base de dados poder fazer o calculo, 
+este calculo faz-se com data de inicio , data de fim, e assim obtem-se 
+a duração de uma atividade.
+Adicionar também no diagrama de dominio se possivel.
+Modelo conceptual :   Plano de acontecimentos passou a ser historico e 
+plano de atividades é o caderno de notas, ok
+
+TODO: colocar catálogo de imagens / artefactos e minerais!
+Falta Catálogo? Catálogo de imagens, de minerais, mais importante o de minerais.
+
+
 Trabalho a fazer 
 
 TODA A GENTE:
-2. Estabelecer conjunto de missões (Missoes_Nautas-txt)
-4. Identificar interfaces
+2. Estabelecer conjunto de missões (Missoes_Nautas-txt) 
+4. Identificar interfaces - malhas
 5. Tipos utilizador da aplicação e suas funcionalidades diferentes
-6. Discutir o back-office
-7. Começar a pensar que classes vamos implementar e como vai ficar o código
-8. Especificar de forma geral as funcionalidades e 
-classes/funções: o que vao fazer, para que vao servir
+6. Discutir o back-office e funcionalidades do sistema: para que é que
+cada função existe, qual o objetivo de cada função.
 
 
 Joana -----------------------------------------------
-1. Diagrama de Gantt melhorado -joana
+-1. Diagrama de Gantt melhorado DONE
 16. Melhorar Modelo de Dominio e pensar no modelo lógico para base de dados
 
 Malhas ----------------------------------------------
-10. Diferenciar requisitos de utilizador e de sistema
-Requisitos sistema
-11. Em cada requisito diferenciar funcionais e não funcionais
 3. Fazer maquete/mock up da aplicação - malhas
+->LER os requisitos que eu ja fiz e ver se concordas.
 
 Alexandre -------------------------------------------
-12.1 Diagrama de Dominio -alexandre,multiplicidades
+12.1 Diagrama de Dominio - jessica iniciou 
 12.2 Diagrama Use Case -jessica done, alexandre atualizar e melhorar
-12.3 Diagrama de Classe -alexandre fazer
-12.4 Diagramas de Sequência -alexandre fazer
+12.3 Diagrama de Classe 
+12.4 Diagramas de Sequência 
 
 
 Jessica ---------------------------------------------
-10. Diferenciar requisitos de utilizador e de sistema
-Requisitos user 
-ler capítulo 4 do livro ian_sommerville - jessica e malhas, doing it
-13. Método RUP - jessica done texto no relatorio
-14. Documentação ?
-15. Relatório - jessica doing it
-em cascata 
-11. Em cada requisito diferenciar funcionais e não funcionais
+15. Relatório 
+
+-10. Diferenciar requisitos de utilizador e de sistema
+Requisitos user DONE
+ler capítulo 4 do livro ian_sommerville - jessica e malhas, DONE
+-13. Método RUP - jessica done texto no relatorio DONE
+-14. Documentação DONE
+-11. Em cada requisito diferenciar funcionais e não funcionais DONE
 
 -----------------------------------------------------------------
 
