@@ -1,5 +1,6 @@
 ﻿-- Missoes ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- - - - - -- - - - - - -- - - - - - -- - - -- - - -
 
+Exemplos de missões incluídas:
 1. Cartografar / Mapear a Lua: identificar caracteristicas do solo;
 2. Montar peças: telescópios
 3. Verificar a lista de instrumentos utilizados para permitir 
@@ -16,6 +17,7 @@ Apollo que pousaram na superficie da Lua cerca de 400 kg de rochas,
 
 --------------------------- - - - --  -------------------- - - --  -------------------------------------- - -  --  -- -  - --------------------------------------------------------------------------------- - - -  - - - - - - - - --  - -------- - -
 
+Outro tipo de missões nao incluídas:
 - estabelecer a tecnologia para viabilizar os interesses dos Estados Unidos;
 - desenvolver um programa de exploração cientifica da Lua;
 - desenvolver as capacidades do homem para trabalhar no ambiente lunar;

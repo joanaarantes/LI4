@@ -1,0 +1,86 @@
+Modelo conceptual 
+
+
+
+2.Identificação de Relacionamentos
+
+2.1 Astronauta é membro Missão
+
+Relacionamento: Astronauta é membro Missão.
+Descrição: Astronauta é membro de uma missão, uma missão tem astronautas envolvidos. Identifica os astronautas envolvidos numa missão e todas as missões em que um determinado astronauta está presente.
+Cardinalidade: Astronauta(N); Missao(N) - Um astronauta pode estar envolvido em várias missões e uma missão pode ser realizada por vários astronautas.
+Atributos: Este relacionamento nao tem atributos.
+
+2.2 Missao astro
+Relacionamento: Missao astro
+Descrição: Uma missão é relativa a um astro, neste caso a Lua.
+Cardinalidade: Missao(N); Astro(1) - Uma missão é realizada num astro podendo num astro haver várias missões.
+Atributos: Este relacionamento nao tem atributos.
+
+2.3 Missao Historico
+
+Relacionamento: Missao Histórico
+Descrição: Uma missão após concluida é adicionada ao histórico.
+Cardinalidade: Missao(N); Historico(1) - Um histórico é composto por várias missões, sendo que uma missão pertence a um unico existente histórico.
+Atributos: Este relacionamento nao tem atributos.
+
+2.4 Historico Area Triangulo
+
+Relacionamento: Historico AreaTriangulo
+Descrição: Em cada missão pertencente a um histórico existe a area Triangulo respetiva.
+Cardinalidade: Historico(1); AreaTriangulo(N); Um historico tem várias areas para cada missão, mas uma area apenas corresponde a uma missao no histórico.
+Atributos: Este relacionamento nao tem atributos.
+
+2.5 Missao Veiculo
+
+Relacionamento: Missao pode ter veiculo
+Descrição: Uma missão pode ou nao ter um veículo associado.
+Cardinalidade: Missao(1); Veiculo(N) - Uma missao pode ou nao ter um veiculo associado, mas um veiculo apenas estará associado a uma instância de missão.
+Atributos: Este relacionamento nao tem atributos.
+
+2.5 Missao Percurso
+
+Relacionamento: Missao Percurso
+Descrição: Uma missão tem um percurso associado.
+Cardinalidade: Missao(1); Percurso(1) - Uma missao tem apenas um percurso associado, e este tem de existir. 
+Atributos: Este relacionamento nao tem atributos.
+
+2.5 Missao Atividade
+
+Relacionamento: Missao Atividade
+Descrição: Uma missão tem várias atividades.
+Cardinalidade: Missao(1); Atividade(N) - Uma missao tem várias atividades, mas uma atividade está associada a apenas uma missão.
+Atributos: Este relacionamento nao tem atributos.
+
+2.5 Missao Caderno de notas
+
+Relacionamento: Missao Caderno de notas
+Descrição: Uma missão tem sempre um caderno de notas.
+Cardinalidade: Missao(1); Caderno de notas(1) - Uma missao tem um caderno de notas associado, e um caderno de notas corresponde a uma missão.
+
+2.5 Percurso Ponto de passagem
+
+Relacionamento: Percurso Ponto de passagem
+Descrição: Um percurso tem vários pontos de passagem.
+Cardinalidade: Percuso(1); Ponto de Passagem(N) - Uma missao tem um ou mais pontos de passagem, e um ponto de passagem é relativo a um percurso.
+
+
+2.5 Ponto de Passagem - Caderno de notas
+
+Relacionamento: Caderno de notas é composto Ponto Passagem
+Descrição: Caderno de notas é composto por vários pontos de passagem.
+Cardinalidade: Caderno de Notas(N); Ponto de Passagem(N) - Num caderno de notas existem vários pontos de passagem, e um ponto de passagem pode estar associado a vários cadernos de notas, de diferentes missões.
+
+
+2.5 Caderno de notas - Registo
+
+Relacionamento: Caderno de notas Registo
+Descrição: Caderno de notas é composto ou não por registos.
+Cardinalidade: Caderno de Notas(1); Registos(N) - Num caderno de notas podem existir registos de atividades caso o astronauta as publique, mas um registo existente diz respeito a um caderno de notas.
+
+
+2.5 Ponto de Passagem - Registo
+
+Relacionamento: Ponto de Passagem efetuado em Registo
+Descrição: Um registo tem uma localização que é denominada por Ponto de Passagem.
+Cardinalidade: Registo(N); Ponto de Passagem(N) - Um ponto de passagem existe, ou não, num ou em vários registos, e num registo pode existir ou nao um determinado ou vários pontos de passagem.

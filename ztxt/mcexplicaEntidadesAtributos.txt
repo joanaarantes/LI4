@@ -1,0 +1,43 @@
+Modelo Conceptual
+
+1.Identificação de Entidades e seus atributos
+Nesta secção pretende-se explicar o porquê da existencia de cada entidade.
+
+1.1 Astronauta
+Dado o facto desta base de dados ser parte da implementação de uma aplicação destinada a astronautas/exploradores espaciais, é natural haver a entidade Astronauta. O Astronauta terá como atributos o nome, que na base de dados está descrito como NomeAstronauta, o seu Cargo, e o seu id.
+
+1.2 Missao
+Esta aplicação destina-se ao auxilio do trabalho de campo de um explorador espacial e o trabalho deste consiste na realização de várias missões, no contexto espacial. Assim sendo torna-se claro que a nossa entidade principal é a Missao, e vários relacionamentos serão criados à volta deste.
+A Missão terá um id, terá um nome, e duas datas: data de inicio e data de fim da realização da missão. A missão pode ser de dois tipos diferentes por isso essa distinção existe na base de dados no atributo denominado TipoMissao. 
+
+1.3 Historico
+O Historico corresponde ao plano de acontecimentos, ou seja, missões que já se decorrerram ou eventos passados. Existe então o id do historico e neste várias missões identificadas como já ocorridas ou concluídas. Cada Historico tem uma área que é calculada atraves de outra entidade explicada de seguida.
+
+
+1.4 Area triangulo
+A Area triangulo é uma entidade que fornece a area total para ser guardada no historico. Uma vez que uma missão concluida é adicionada ao historico, esta tem uma área que é calculada da mesma forma que é calculada a area de um triangulo, tendo esta entidade como atributos três pontos, ponto a, b, c, e cada um deles um atributo latitude e longitude. Assim sendo, os atributos ponto a, ponto b e ponto c são atributos multi-valor da entidade Area triangulo.
+
+1.5 Veiculo
+A cada missão pode estar presente a utilização de um Veiculo. Cada Veículo tem o seu id, um tipo e nivel de bateria.
+
+1.6 Astro
+No contexto atual, o Astro é uma entidade que permite saber que esta aplicação e esta base de dados apenas se refere ao astro da lua. Mas no futuro pode se expandir para outros astros, havendo assim esta caracteristica da nossa aplicação explícita na nossa base de dados, ou seja, que é permitida a extensão da aplicação e base de dados para exploração em outros astros. Para já restringimo-nos à Lua. 
+Assim sendo, a entidade Astro tem como atributos o id e o nome do astro.
+
+1.7 Atividade
+Uma missão pode ter várias atividades, pois como sabemos pelos requisitos, uma missão tem várias fases. Assim sendo foi criada a entidade Atividade que tem como atribudos o seu id e uma descrição da atividade realizada ou por realizar.
+
+1.8 Caderno de notas
+Para manter uma lista de todos os planos de atividade existentes e registos, existe a entidade Caderno de notas que basicamente faz parte de tudo o que o Astronauta irá realizar ou já realizou. Neste momento temos como atributos o id. No Caderno de notas existirão vários registos.
+
+1.9 Percurso
+Cada missão tem um percurso e pretende-mos guardá-lo na nossa base de dados para poder saber os pontos em que o astronauta passou e qual o percurso que realizou numa dada missão. Como atributos apenas precisamos do id.
+
+1.10 Ponto de Passagem
+Cada percurso tem vários pontos de passagem. Cada ponto de passagem será contextualizado com um indice, ou seja, se foi o primeiro ponto na missão por onde o astronauta passou num dado percurso, ou segundo ponto, assim sucessivamente. A entidade ponto de passagem tem assim, como atributos, o indice de passagem, a latitude e longitude como coordenadas, e o id.
+
+1.11 Registo
+No caderno de notas pretende-se guardar várias instâncias de Registos. A entidade Registo diz respeito a tudo o que o astronauta publicar ou realizar, seja um registo textual, fotográfico ou oral, através da gravação de voz. Assim sendo, a entidade Registo é bastante importante e tem como atributos o id, indice de registo para saber qual registo efetuado primeiro, e respetiva ordem, nome do registo, tipo do registo (textual, oral, fotografia), e o seu respetivo conteudo.
+
+1.12 Catálogo
+No tipo de missão exploração e procura de minerais pretende-mos guardar num catálogo tipo inventário todos os minerais encontrados, de forma permanente e constantemente atualizada. Daí, a criação da entidade Catálogo torna-se essencial. Este Catálogo tem como atributos o seu id, o mineral em questão, foto e descrição do catálogo.
