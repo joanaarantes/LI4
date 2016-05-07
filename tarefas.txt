@@ -1,54 +1,20 @@
 ﻿-----------------------2a FASE-------------------------------------------------
-TODO: Duração de uma atividade / registo / missao
-Colocar no modelo conceptual para a base de dados poder fazer o calculo, 
-este calculo faz-se com data de inicio , data de fim, e assim obtem-se 
-a duração de uma atividade.
-Adicionar também no diagrama de dominio se possivel.
-Modelo conceptual :   Plano de acontecimentos passou a ser historico e 
-plano de atividades é o caderno de notas, ok
+Lista de Tarefas:
 
-TODO: colocar catálogo de imagens / artefactos e minerais!
-Falta Catálogo? Catálogo de imagens, de minerais, mais importante o de minerais.
+* Adicionar o atributo Duraçao na MISSAO. Duracao vai ser atualizada apos o 
+calculo com datas inicio, datas fim na MISSAO. (Adicinado no modelo dominio, falta conceptual).
+* Numa atividade / registo de uma missão podemos adicinar também a duração (Duracao
+de cada atividade, colocar a duraçao no registo).
 
 
-Trabalho a fazer 
-
-TODA A GENTE:
-2. Estabelecer conjunto de missões (Missoes_Nautas-txt) 
-4. Identificar interfaces - malhas
-5. Tipos utilizador da aplicação e suas funcionalidades diferentes
-6. Discutir o back-office e funcionalidades do sistema: para que é que
-cada função existe, qual o objetivo de cada função.
-
-
-Joana -----------------------------------------------
--1. Diagrama de Gantt melhorado DONE
-16. Melhorar Modelo de Dominio e pensar no modelo lógico para base de dados
-
-Malhas ----------------------------------------------
-3. Fazer maquete/mock up da aplicação - malhas
-->LER os requisitos que eu ja fiz e ver se concordas.
-
-Alexandre -------------------------------------------
-12.1 Diagrama de Dominio - jessica iniciou 
-12.2 Diagrama Use Case -jessica done, alexandre atualizar e melhorar
-12.3 Diagrama de Classe 
-12.4 Diagramas de Sequência 
-
-
-Jessica ---------------------------------------------
-15. Relatório 
-
--10. Diferenciar requisitos de utilizador e de sistema
-Requisitos user DONE
-ler capítulo 4 do livro ian_sommerville - jessica e malhas, DONE
--13. Método RUP - jessica done texto no relatorio DONE
--14. Documentação DONE
--11. Em cada requisito diferenciar funcionais e não funcionais DONE
+* Adicionar Diagrama de Gantt.
+* Identificar interfaces;
+* Funcionalidades diferentes de cada tipo de utilizador;
+* Discutir o back-office e funcionalidades do sistema: para que é que
+cada função existe, qual o objetivo de cada função. (Diagrama de Classes)
 
 -----------------------------------------------------------------
-
-To Be doing: 2a fase
+To Be doing: 
 
 plano de atividades
 plano de acontecimentos
@@ -67,6 +33,43 @@ GPS -> registar percursos
 guiar-se
 
 falar, associar dados utilizaçao
+
+
+
+-----------------------------------------------------------------
+Lista de Tarefas concluídas:
+Jessica 
+-10. Diferenciar requisitos de utilizador e de sistema
+Requisitos user DONE
+ler capítulo 4 do livro ian_sommerville - jessica e malhas, DONE
+-13. Método RUP - jessica done texto no relatorio DONE
+-14. Documentação DONE
+-11. Em cada requisito diferenciar funcionais e não funcionais DONE
+Melhorar todos os requisitos de sistema + texto + explicação
+estão especificados e melhorados.
+2. Estabelecer conjunto de missões (Missoes_Nautas-txt) 
+Daniel
+3. Fazer maquete/mock up da aplicação - malhas
+->LER os requisitos que eu ja fiz e ver se concordas.
+Requisitos de sistema funcionais e nao funcionais +3 acrescentados.
+Alexandre
+12.1 Diagrama de Dominio - jessica iniciou 
+12.2 Diagrama Use Case -jessica done, alexandre atualizar e melhorar
+12.3 Diagrama de Classe 
+12.4 Diagramas de Sequência 
+2. Estabelecer conjunto de missões (Missoes_Nautas-txt) 
+Joana
+16. Melhorar Modelo Conceptual BD
+17. Pensar no modelo lógico para base de dados
+18. Fazer Modelo lógico e adicionar o que falta
+Colocar catálogo de imagens / artefactos e minerais!
+Falta Catálogo? Catálogo de imagens, de minerais, mais importante o de minerais.
+
+NOTA:Modelo conceptual :   Plano de acontecimentos passou a ser historico e 
+plano de atividades é o caderno de notas.
+
+
+
 -----------------------------------------------------------------
 
 
@@ -86,8 +89,6 @@ Ferramentas: Microsoft Visual Studio + Microsoft .Net C#,
 Microsoft SQL Server + Microsoft Office + 
 Microsoft Project ... .. .. .. . 
 
-
------------------------------------------------------------------
 Processo: especificar, designa e implement.
 validar, evoluçao: costumer needs and changes (mudança dos 
 requisitos e das necessidades do cliente, etc ... )
