@@ -1,0 +1,12 @@
+-------------------------------------------ESCOLHA DA PLATAFORMA----------------------------------------------------------------
+
+Uma vez que nos foi solicitdo desenvolver uma aplicação recorrendo a software de desenvolvimento da microsoft achamos que seria melhor também que a aplicação fosse desenvolvida para a plataforma Windows mais recente: Windows 10.
+Porqué? Usar as APIs unificadas da microsoft entre as ferramentas de desenvolvimento e o sistema opetativo onde a aplicação irá funcionar torna o desenvolvimento do produto final mais fácil. Se implementassemos a aplicacação, por exemplo, para a plataforma android seria mais trabalhoso e complicado conseguir "cruzar" as API's de microsoft, nomeadamente MICROSOFT SQL SERVER com as APIs de desenvolvimento android. Seria necessario para tal arranjar drivers que fizessem a ligação. De facto, esses drivers existem, mas necessitaríamos de um tempo suplementar para uma correcta aprendizagem e manuseamento.
+
+Não esquecer que a plataforma Windows 10 é uma plataforma unificada, ou seja, trata-se rigorasamente do mesmo sistema operativo nos dispositivos em que opera; nomeadamente: portateis, tablets e smartphone. Por isso, embora iremos testar a nossa aplicacao final num portatil, sabemos que esse mesmo executavel windows (.exe), a ser executado num tablet ou num smartphone funcionaria de igual forma.
+
+Isso faz que a nossa aplicação "agente de campo" possa ser usada de forma móvel, por exemplo, quando o astronauta se encontra em missão e pretende registar um determinado acontecimento observado; ou também, ser usada, por exemplo, no final de um dia, num portátil, quando um determinado astronauta pretende criar uma missão para um determinado dia e apontar os membros que pretende que ingressem a missão.
+
+O uso de uma plataforma única em dispositivos de diferente natureza, faz também que, dado o tempo limitado de desenvolvimento que dispusemos para desenvolver a aplicação, o tempo para "debugging" seja consideravelmente menor.
+
+---------------------------------------------------------------------------------------------------------------------------------
