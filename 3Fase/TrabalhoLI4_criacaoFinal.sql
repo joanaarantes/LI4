@@ -25,8 +25,20 @@ USE `ExploradorEspacial`;
 CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Astronauta` (
   `id_Astronauta` INT NOT NULL AUTO_INCREMENT,
   `NomeAstronauta` VARCHAR(45) NOT NULL,
-  `Cargo` VARCHAR(45) NOT NULL,
+  `PasswordAstronauta` VARCHAR(100) NOT NULL,
+  `CargoAstronauta` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_Astronauta`))
+ENGINE = InnoDB;
+
+-- -----------------------------------------------------
+-- Tabela `ExploradorEspacial`.`Funcionario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Funcionario` (
+  `id_Funcionario` INT NOT NULL AUTO_INCREMENT,
+  `NomeFuncionario` VARCHAR(45) NOT NULL,
+  `PasswordFuncionario` VARCHAR(100) NOT NULL,
+  `CargoFuncionario` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_Funcionario`))
 ENGINE = InnoDB;
 
 -- -----------------------------------------------------
@@ -35,7 +47,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Catalogo` (
   `id_Catalogo` INT NOT NULL AUTO_INCREMENT,
   `NomeCatalogo` VARCHAR(45) NOT NULL,
-  `Descricao` VARCHAR(100) NOT NULL,
+  `DescricaoCatalogo` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`id_Catalogo`))
 ENGINE = InnoDB;
 
@@ -67,7 +79,13 @@ CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Mineral` (
   `id_Mineral` INT NOT NULL AUTO_INCREMENT,
   `NomeMineral` VARCHAR(45) NOT NULL,
   `Foto` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id_Mineral`))
+  `Catalogo_id_Catalogo` INT NOT NULL,
+  PRIMARY KEY (`id_Mineral`),
+  CONSTRAINT `fk_Mineral_Catalogo1`
+    FOREIGN KEY (`Catalogo_id_Catalogo`)
+    REFERENCES `ExploradorEspacial`.`Catalogo` (`id_Catalogo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 -- -----------------------------------------------------
@@ -164,7 +182,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Atividade` (
   `id_Atividade` INT NOT NULL AUTO_INCREMENT,
-  `Descricao` VARCHAR(100) NOT NULL,
+  `DescricaoAtividade` VARCHAR(100) NOT NULL,
   `Missao_id_Missao` INT NOT NULL,
   PRIMARY KEY (`id_Atividade`),
   CONSTRAINT `fk_Atividade_Missao1`
@@ -274,7 +292,7 @@ CREATE TABLE IF NOT EXISTS `ExploradorEspacial`.`Missao` (
   `id_Missao` INT NOT NULL AUTO_INCREMENT,
   `DataInicio` DATE NOT NULL,
   `DataFim` DATE NOT NULL,
-  `TipoMisao` VARCHAR(45) NOT NULL,
+  `TipoMissao` VARCHAR(45) NOT NULL,
   `NomeMissao` VARCHAR(45) NOT NULL,
   `Astronauta_id_Astronauta` INT NOT NULL,
   `Caderno_de_Notas_id_Caderno` INT NOT NULL,
