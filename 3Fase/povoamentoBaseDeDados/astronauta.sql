@@ -2,7 +2,7 @@
 USE ---;
 SET SQL_SAFE_UPDATES = 0;
 
-INSERT INTO astronauta
+INSERT INTO Astronauta
 (id_Astronauta, NomeAstronauta, Cargo)
 VALUES
 (1,'Maria Helena', 'gestor_missao'),

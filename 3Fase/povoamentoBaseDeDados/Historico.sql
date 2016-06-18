@@ -1,0 +1,10 @@
+
+USE ---;
+SET SQL_SAFE_UPDATES = 0;
+
+INSERT INTO Historico
+(id_Astro)
+VALUES
+(1);
+
+SET SQL_SAFE_UPDATES = 1;
