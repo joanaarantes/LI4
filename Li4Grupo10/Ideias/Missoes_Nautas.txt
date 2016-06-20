@@ -1,0 +1,39 @@
+﻿-- Missoes ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- - - - - -- - - - - - -- - - - - - -- - - -- - - -
+
+Exemplos de missões incluídas:
+1. Cartografar / Mapear a Lua: identificar caracteristicas do solo;
+2. Montar peças: telescópios
+3. Verificar a lista de instrumentos utilizados para permitir 
+ou nao outra pessoa de o usar.
+p.e.: Se alguem precisar de um det. instrumento mas ele estiver 
+a ser usado por outrem, permitir saber quando esse instrumento 
+está disponivel para esta nova pessoa poder efetuar a sua tarefa/missão.
+4. Fazer perfurações para preparar local de trabalho para encontrar pedras.
+5. Trazer pedras "As 2 200 pedras trazidas pelas seis missoes 
+Apollo que pousaram na superficie da Lua cerca de 400 kg de rochas, 
+75 novas variedades de minerais, a maioria silicatos".
+6. Encher depósito de Rover.
+7. Atribuir missões (dar permissões a dados utilizadores).
+
+--------------------------- - - - --  -------------------- - - --  -------------------------------------- - -  --  -- -  - --------------------------------------------------------------------------------- - - -  - - - - - - - - --  - -------- - -
+
+Outro tipo de missões nao incluídas:
+- estabelecer a tecnologia para viabilizar os interesses dos Estados Unidos;
+- desenvolver um programa de exploração cientifica da Lua;
+- desenvolver as capacidades do homem para trabalhar no ambiente lunar;
+- efetuar voo - naves apollo, mercury e gemini;
+- rendez-vous encontro em órbita, na órbita da Terra, e o 
+rendez-vous lunar, que significa que um pequeno módulo desceria 
+ao solo da Lua e depois encontraria em órbita a nave de retorno.
+
+
+Desde a missao Apollo 17 em dezembro de 1972, nenhum homem pisou 
+no solo lunar e muitas das descobertas científicas que poderiam ter 
+sido feitas ficaram adiadas para quando houvesse novamente interesse 
+em desvendá-las.
+
+
+
+--Referências
+https://pt.wikipedia.org/wiki/Programa_Apollo
+https://pt.wikipedia.org/wiki/Explora%C3%A7%C3%A3o_espacial
