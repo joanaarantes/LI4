@@ -1,6 +1,6 @@
 # LI4
 
-Projecto da Unidade Curricular de Laboratórios de Informática IV do 3.º ano do Mestrado Integrado em Engenharia Informática da Universidade do Minho, ano letivo 2015/16.
+Projecto da Unidade Curricular de Laboratórios de Informática IV do 3.º ano do Mestrado Integrado em Engenharia Informática da Universidade do Minho, ano lectivo 2015/16.
 
 Participantes:
 - Alexandre Silva (@alexSilva64)
